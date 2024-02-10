@@ -13,14 +13,14 @@
                 </button>
             </div>
             <div id="main_nav_content" class="layout-content">
-				<!-- 
-				<button title="Workspace" id="workspace_nav" tabItemId="#no-split-app, #workspaces_tabitem" tabGroup="main_group"
-					data-click="#tabs" onclick="mainTabs(this, '#tab_anapnoe_dock')" class="xtabs-tab">
-					<div class="mask-icon icon-dock">
-					</div>
-					<span>Workspace</span>
-				</button> 
-				-->
+        <!-- 
+        <button title="Workspace" id="workspace_nav" tabItemId="#no-split-app, #workspaces_tabitem" tabGroup="main_group"
+          data-click="#tabs" onclick="mainTabs(this, '#tab_anapnoe_dock')" class="xtabs-tab">
+          <div class="mask-icon icon-dock">
+          </div>
+          <span>Workspace</span>
+        </button> 
+        -->
                 <div id="main-nav-bar" class="flexbox col shrink">
 
                     <button title="Txt2img" id="txt2img_nav" tabItemId="#split-app, #txt2img_tabitem" tabGroup="main_group"
@@ -54,15 +54,15 @@
                         </div>
                         <span>Train</span>
                     </button>
-					
-					<!-- <button id="right_sidebar_button" tabItemId="#template-aside" tabGroup="main_group" class="xtabs-tab">
-					<div class="mask-icon icon-train"></div>
-					<span>Sidebar</span>
-					</button> -->
-					
+          
+          <!-- <button id="right_sidebar_button" tabItemId="#template-aside" tabGroup="main_group" class="xtabs-tab">
+          <div class="mask-icon icon-train"></div>
+          <span>Sidebar</span>
+          </button> -->
+          
                     <div id="other_extensions" class="flexbox col">
                     </div>
-					
+          
 <!-- 					<button title="Sidebar" tabItemId="#template-right-sidebar" tabGroup="main_group" class="xtabs-tab">
                         <div class="mask-icon icon-train">
                         </div>
@@ -81,22 +81,22 @@
             </div>
             
             <div class="layout-footer">
-				<!-- 
-				<button title="Extensions" tabItemId="#no-split-app, #layout-extensions" tabGroup="main_group" id="btn_extensions" data-click="#tabs"
+        <!-- 
+        <button title="Extensions" tabItemId="#no-split-app, #layout-extensions" tabGroup="main_group" id="btn_extensions" data-click="#tabs"
                         onclick="mainTabs(this, '#tab_extensions')"class="xtabs-tab">
-				  <div class="mask-icon icon-extensions">
-				  </div>
-				  <span>Extensions</span>
-				</button>
-				<button title="Settings" tabItemId="#no-split-app, #layout-settings" tabGroup="main_group" id="btn_settings" data-click="#tabs"
+          <div class="mask-icon icon-extensions">
+          </div>
+          <span>Extensions</span>
+        </button>
+        <button title="Settings" tabItemId="#no-split-app, #layout-settings" tabGroup="main_group" id="btn_settings" data-click="#tabs"
                         onclick="mainTabs(this, '#tab_settings')"class="xtabs-tab">
-					<div class="mask-icon icon-settings">
-					</div>
-					<span>Settings</span>
-				</button>
+          <div class="mask-icon icon-settings">
+          </div>
+          <span>Settings</span>
+        </button>
                 <div class="flexbox col spacer-v">
-				</div> 
-				-->				
+        </div> 
+        -->				
                 <button title="Sponsors & Supporters" id="sponsors" tabItemId="#no-split-app, #sponsors_tabitem" tabGroup="main_group" class="xtabs-tab no-drag">
                     <div class="mask-icon icon-vip">
                     </div>
@@ -107,7 +107,7 @@
                     </div>
                     <span>Contributors</span>
                 </button>
-				 <button id="popup_trigger" tabItemId="#popup_tabitem" tabGroup="popup_group" class="xtabs-tab">
+         <button id="popup_trigger" tabItemId="#popup_tabitem" tabGroup="popup_group" class="xtabs-tab">
                     <div class="mask-icon icon-train">
                     </div>
                     <span>Popup</span>
@@ -120,7 +120,7 @@
         </div>
 
 
-		
+    
         <div id="layout_main_wrapper" class="layout grow initial">
             <!--  
             <div class="layout-header">
@@ -128,52 +128,52 @@
                 </div>
             </div> 
             -->
-			
+      
           
-				<!-- <div id="anapnoe_app_dock">
+        <!-- <div id="anapnoe_app_dock">
                 </div> -->
-				
-			<div class="layout-content">
-				<div class="flexbox row relative">
-			
-					<div id="no-split-app" class="xtabs-item">
-						<div id="about_tabitem_parent">
-							<div title="About" id="about_tabitem" class="xtabs-item no-padding">
-								<div id="template-about" class="template"></div>
-							</div>
-						</div>
-						<div id="sponsors_tabitem_parent">
-							<div title="Sponsors & Supporters" id="sponsors_tabitem" class="xtabs-item no-padding">
-								<div id="template-sponsors" class="template"></div>
-							</div>
-						</div>
+        
+      <div class="layout-content">
+        <div class="flexbox row relative">
+      
+          <div id="no-split-app" class="xtabs-item">
+            <div id="about_tabitem_parent">
+              <div title="About" id="about_tabitem" class="xtabs-item no-padding">
+                <div id="template-about" class="template"></div>
+              </div>
+            </div>
+            <div id="sponsors_tabitem_parent">
+              <div title="Sponsors & Supporters" id="sponsors_tabitem" class="xtabs-item no-padding">
+                <div id="template-sponsors" class="template"></div>
+              </div>
+            </div>
                         <div id="contributors_tabitem_parent">
-							<div title="Contributors" id="contributors_tabitem" class="xtabs-item no-padding">
-								
-							</div>
-						</div>
-						
-					<!-- 	<div id="template-extensions" class="template"></div>
-						<div id="template-settings" class="template"></div> -->
-						<!-- 	
-						<div title="Workspaces" id="workspaces_tabitem" class="xtabs-item  no-padding">
-							<div class="flexbox col">
-								<div id="workspaces_toolbar" class="flexbox row">								
-									
-								</div>
-								<div class="flexbox col">
-									<div data-parent-selector="gradio-app" data-selector="#tab_anapnoe_dock" class="portal no-bg">
-									</div>
-								</div>							
-							</div>
-							 
-						</div> 
-						-->
-					</div>
-			
+              <div title="Contributors" id="contributors_tabitem" class="xtabs-item no-padding">
+                
+              </div>
+            </div>
+            
+          <!-- 	<div id="template-extensions" class="template"></div>
+            <div id="template-settings" class="template"></div> -->
+            <!-- 	
+            <div title="Workspaces" id="workspaces_tabitem" class="xtabs-item  no-padding">
+              <div class="flexbox col">
+                <div id="workspaces_toolbar" class="flexbox row">								
+                  
+                </div>
+                <div class="flexbox col">
+                  <div data-parent-selector="gradio-app" data-selector="#tab_anapnoe_dock" class="portal no-bg">
+                  </div>
+                </div>							
+              </div>
+               
+            </div> 
+            -->
+          </div>
+      
                     <div id="split-app" gutterSize="8" direction="horizontal" class="split">
                         <div data-minSize="0" data-initSize="100" id="split-left" class="split-container">
-						<div id="txt2img_tabitem_parent">
+            <div id="txt2img_tabitem_parent">
                             <div id="txt2img_tabitem" class="xtabs-item  no-padding">
                                 <div id="split" direction="horizontal" gutterSize="8" class="split">
                                     <div title="txt2img params" data-minSize="0" data-initSize="50" id="iwse" class="split-container params">
@@ -184,8 +184,8 @@
                                     </div>
                                 </div>
                             </div>
-							</div>
-							<div id="img2img_tabitem_parent">
+              </div>
+              <div id="img2img_tabitem_parent">
                             <div id="img2img_tabitem" class="xtabs-item  no-padding">
                                 <div id="split-img2img" direction="horizontal" gutterSize="8" class="split">
                                     <div title="img2img params" title="txt2img" data-minSize="0" data-initSize="50" id="iwsei" class="split-container params">
@@ -196,8 +196,8 @@
                                     </div>
                                 </div>
                             </div>
-							</div>
-							<div id="extras_tabitem_parent">
+              </div>
+              <div id="extras_tabitem_parent">
                             <div id="extras_tabitem" class="xtabs-item  no-padding">
                                 <div id="split-extras" direction="horizontal" gutterSize="8" class="split">
                                     <div title="Extras params" id="esp-c1" data-minSize="0" data-initSize="50" id="iwsee"
@@ -211,13 +211,13 @@
                                     </div>
                                 </div>
                             </div>
-							</div>
+              </div>
                             <!--  
                             <div id="model_merger_tabitem" class="xtabs-item">
                                 <div id="template-model-merger" class="template"></div>
                                 </div> 
                             -->
-							<div id="train_tabitem_parent">
+              <div id="train_tabitem_parent">
                             <div id="train_tabitem" class="xtabs-item  no-padding">
                                 <div id="splitt" direction="horizontal" gutterSize="8" class="split">
                                     <div title="Train params" id="tsp-c1" data-minSize="0" data-initSize="50" id="iwswt"
@@ -230,7 +230,7 @@
                                     </div>
                                 </div>
                             </div>
-							</div>
+              </div>
                             <div title="Popup" id="popup_tabitem" class="xtabs-item ae-popup">
                                 <div class="ae-popup-inner">
                                     <div id="layout-popup-group" class="flexbox col">
@@ -301,13 +301,13 @@
 
                         </div>
                         <div data-minSize="0" data-initSize="50" id="split-right" class="split-container no-drag">                           
-							<div id="template-aside-extra-networks" class="template"></div>
+              <div id="template-aside-extra-networks" class="template"></div>
                         </div>
                     </div>
                 </div>				
             </div>
-			
-			
+      
+      
             <!--  
             <div class="layout-footer">
                 <div>Footer

@@ -4,9 +4,8 @@
 # Please modify webui-user.sh to change these instead of this file #
 ####################################################################
 
-if [[ -x "$(command -v python3.10)" ]]
-then
-    python_cmd="python3.10"
+if [[ -x "$(command -v python3.12)" ]]; then
+  python_cmd="python3.12"
 fi
 
 export install_dir="$HOME"

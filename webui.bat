@@ -1,7 +1,7 @@
 @echo off
 
 if exist webui.settings.bat (
-    call webui.settings.bat
+  call webui.settings.bat
 )
 
 if not defined PYTHON (set PYTHON=python)
